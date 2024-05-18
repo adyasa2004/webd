@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  /* Navbar */
+.navbar-nav li a{
+    font-size: 17px;
+}
+.navbar-brand{
+    letter-spacing: 3px;
+}
+  
+  /* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.heading{
+    color:white;
+    height:80px;
+    background-image: linear-gradient(135deg,black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70));
+}
+p{
+    font-size:3rem;
+}
+.nav-top{
+    display: flex;
+    
+}
+.home,.news,.entertainment,.politics,.world,.business{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sports{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+.home:hover, .news:hover,.world:hover,.business:hover,.politics:hover,.entertainment:hover,.sports:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.8s;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+.search{
+    height: 20px;
+    width: 60px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 900px;
+}
+.nav2{
+    height: 40px;
+    background-color: rgb(190, 184, 184);
+    display: flex;
+}
+.newsb{
+    padding-top: 10px;
+    margin-left: 3px;
+}
+.local{
+    padding-top: 10px;
+    margin-left: 30px;
+    color: blue;
+}
+.wtext{
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+.cloud{
+    height: 60px;
+    width: 4.7px;
+    margin-left: 1020px;
+    margin-top:10px;
+}
+.celcius{
+    margin-left: 15px;
+    height: 20px;
+    font-size:xx-small;
+    margin-top: 5px;
+}
+.flash{
+    margin-top: 10px;
+    margin-left: 10px;
+}
