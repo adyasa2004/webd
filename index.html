@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="sandbox.js" defer></script>
+    <title>Task1</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+</head> 
+<body> 
+    <header font="Arial" size=100 class="header"> 
+        TheNewsHive
+    </header> 
+    <ul class="tabs">
+        <li data-tab-target="#home" class="active tab"> <b>HOME</b> </li>
+        <li data-tab-target="#news" class="tab"> <b>NEWS</b> </li>
+        <li data-tab-target="#world" class="tab"> <b>WORLD</b> </li>
+        <li data-tab-target="#business" class="tab"> <b>BUSINESS</b> </li>
+        <li data-tab-target="#politics" class="tab"> <b>POLITICS</b> </li>
+        <li data-tab-target="#entertainment" class="tab"> <b>ENTERTAINMENT</b> </li>
+        <li data-tab-target="#sports" class="tab"> 
+            <select class="sports">
+            <option value=""> <b> SPORTS </b></option>
+            <option value="football">Football</option>
+            <option value="cricket">Cricket</option>
+            <option value="tennis">Tennis</option>
+
+            </select></li>
+
+    </ul>
+    <div class="search"><i class="fa-solid fa-magnifying-glass fa-lg"></i></div>
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <div class="nav2">
+                <div class="bolt"><i class="fa-solid fa-bolt-lightning"></i></div>
+                <div class="newsb"><b>BREAKING NEWS</b></div>
+                <div class="local"> 
+                    Local coming back on street again after
+                </div>
+                <div class="cloud"><i class="fa-solid fa-cloud-moon-rain fa-lg"></i></div>
+                <div class="wtext">,September 14, 2023 in</div>
+                
+            </div>
+        </div>
+    </div>
+    
+        <div id="news" data-tab-content></div>
+        <div id="world" data-tab-content></div>
+        <div id="business" data-tab-content></div>
+        <div id="politics" data-tab-content> </div>
+        <div id="entertainment" data-tab-content> </div>
+        <div id="sports" data-tab-content></div>
+        <div class="columns">
+            <div class="latest"> Latest </div>
+            <div class="popular"> Popular </div>
+        </div>
+        <div class="all"><img src="all.jpeg" height="470"></div>
+       <div class="news"><img src="news.jpeg" align="right" width="325"></div> 
+        
+
+   
+</body> 
+</html> 
