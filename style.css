@@ -1,0 +1,153 @@
+
+  
+  /* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.heading{
+    color:white;
+    height:80px;
+    background-image: linear-gradient(135deg,black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70),black,rgb(70, 70, 70),black,rgb(70,70,70),black,rgb(70, 70, 70));
+}
+p{
+    font-size:3rem;
+}
+.nav-top{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    padding-left:20px ;
+}
+
+.sports{
+    
+    border: none;
+}
+.home:hover, .news:hover,.world:hover,.business:hover,.politics:hover,.entertainment:hover,.sports:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.8s;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.nav2{
+    height: 40px;
+    background-color: rgb(190, 184, 184);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.newsb{
+    padding-top: 10px;
+    margin-left: 3px;
+    
+}
+.local{
+    padding-top: 10px;
+    gap: 2px;
+    color: blue;
+}
+.wtext{
+    padding-top: 10px;
+    gap: 2px;
+
+}
+.cloud{
+    height: 60px;
+    width: 4.7px;
+    
+    margin-top:10px;
+}
+.celcius{
+    
+    height: 20px;
+    font-size:xx-small;
+    margin-top: 5px;
+}
+.flash{
+    margin-top: 10px;
+    
+}
+/* Base styles */
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .nav-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-top > div, .nav-top > select {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+    }
+    
+    .search {
+        text-align: right;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 768px) {
+    .nav-top {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nav-top > div, .nav-top > select {
+        flex: 1 1 48%;
+        text-align: center;
+    }
+
+    .search {
+        text-align: right;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .nav-top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-top > div, .nav-top > select,.nav-top >i {
+        flex: 1;
+        text-align: center;
+    }
+
+    .search {
+        text-align: right;
+    }
+}
+.navleft{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+.navright{
+    display: flex;
+    justify-content: end;
+}
+.nav2left{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-left:100px ;
+}
+.nav2right{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+#right{
+    align-items: right;
+}
